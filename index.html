@@ -4,7 +4,19 @@
     <title>va1a.net</title>
     <style>
 
-    body {font-family: monospace; margin: auto; background-color: black; color: white;}
+    body {
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    background-color: black;
+    color: white;
+	}
+	a {
+    color: #78dce8;
+    text-decoration: none;
+	}
+	a:hover {
+    color: #a9dc76;
+    text-decoration: underline;
+	}
     .outer {
   	display: table;
   	position: absolute;
@@ -18,9 +30,16 @@
   	vertical-align: middle;
 	}
 	.inner {
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 33vw;
+		border-style: outset;
+		border-color: #6e6e6e;
+  		margin-left: auto;
+  		margin-right: auto;
+  		padding: 3vw;
+  		width: 33vw;
+	}
+	small {
+		color: white;
+		float: right;
 	}
     </style>
 </head>
@@ -29,6 +48,8 @@
 	<div class="middle">
 		<div class="inner">
 			<h1>va1a.net</h1>
+			<p>Welcome to <a href="https://va1a.net">va1a.net</a></p>
+			<small>© 2023</small>
 		</div>
 	</div>
 </div>
