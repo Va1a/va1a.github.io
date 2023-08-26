@@ -5,12 +5,32 @@
     <style>
 
     body {font-family: monospace; margin: auto; background-color: black; color: white;}
-    .center {display: flex; justify-content: center; align-items: center;}
+    .outer {
+  	display: table;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	height: 100%;
+  	width: 100%;
+	}
+	.middle {
+  	display: table-cell;
+  	vertical-align: middle;
+	}
+	.inner {
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 33vw;
+	}
     </style>
 </head>
 <body>
-<div class="center">
-<h1>va1a.net</h1>
+<div class="outer">
+	<div class="middle">
+		<div class="inner">
+			<h1>va1a.net</h1>
+		</div>
+	</div>
 </div>
 </body>
 </html>
