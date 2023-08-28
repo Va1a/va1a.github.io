@@ -29,6 +29,9 @@
   	display: table-cell;
   	vertical-align: middle;
 	}
+	.inner:focus {
+		border-style: inset;
+	}
 	.inner {
 		border-style: outset;
 		border-color: #6e6e6e;
@@ -37,11 +40,12 @@
   		padding: 3vw;
   		width: 33vw;
 	}
-	small {
+	.footer {
 		color: white;
 		float: right;
 	}
     </style>
+    <link rel="icon" type="image/ico" href="/favicon.ico"/>
 </head>
 <body>
 <div class="outer">
@@ -49,7 +53,7 @@
 		<div class="inner">
 			<h1>va1a.net</h1>
 			<p>Welcome to <a href="https://va1a.net">va1a.net</a></p>
-			<small>© 2023</small>
+			<small class="footer">© 2023</small>
 		</div>
 	</div>
 </div>
