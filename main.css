@@ -15,8 +15,9 @@ body {
 	width: 100%;
 }
 
-small {
+.file-type {
   color: gray;
+  font-size: 65%;
 }
 
 .g-recaptcha {
