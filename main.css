@@ -20,6 +20,13 @@ body {
   font-size: 65%;
 }
 
+img[src*="external-link.svg"] {
+  filter: brightness(0) invert(1);
+  opacity: 0.8;
+  display: inline-block;
+  margin-left: 0.2em;
+}
+
 .g-recaptcha {
 	max-width: 100%;
 	overflow: hidden;
