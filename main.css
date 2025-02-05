@@ -50,7 +50,6 @@ img[src*="external-link.svg"] {
 }
 
 .inner h1 {
-	word-wrap: break-word;
 	font-size: min(2em, 8vw);
 }
 .footer {
