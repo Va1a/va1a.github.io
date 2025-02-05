@@ -48,6 +48,11 @@ img[src*="external-link.svg"] {
 	width: 30vmax;
 	position: relative;
 }
+
+.inner h1 {
+	word-wrap: break-word;
+	font-size: min(2em, 8vw);
+}
 .footer {
 	color: white;
 	float: right;
