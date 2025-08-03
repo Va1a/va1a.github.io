@@ -4,6 +4,10 @@ title: Projects
 parent: /
 ---
 <ul>
-      <li><a href="/projects/acm-industry">ACM.Industry</a></li>
-      <li><a href="/projects/crytter">crytter</a></li>
+  {% assign project_pages = site.pages | where_exp: "p", "p.path contains 'projects/'" %}
+  {% for p in project_pages %}
+    {% unless p.path == page.path %}
+      <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+    {% endunless %}
+  {% endfor %}
 </ul>
