@@ -1,6 +1,6 @@
-
+@import url('https://fonts.cdnfonts.com/css/liberation-sans');
 body {
-  font-family: Tahoma, Verdana, Segoe UI, Arial, sans-serif;
+  font-family: 'Liberation Sans', Tahoma, Verdana, Segoe UI, Arial, sans-serif;
 	font-size: 1.25vw;
 	background-color: black;
 	color: white;
